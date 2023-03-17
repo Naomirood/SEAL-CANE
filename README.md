@@ -1,7 +1,7 @@
 
 ## README
 
-#This repository contains all relevent information related to my thesis (Naomi Rood)
+## This repository contains all relevent information related to my thesis (Naomi Rood)
 <br />
 <br />
 The literature folder contains the 2 main papers that will be used and it contains the links to their Github repositories.
