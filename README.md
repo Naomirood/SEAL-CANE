@@ -16,4 +16,4 @@ The milestones folder contains the files that are handed in for the milestones. 
 The Planning folder contains a link to the trello page where at the moment a general weekly planning is written down. The planning will have more details as the weeks come closer.
 <br />
 <br />
-The code folder contains all relevant code to 
+The code folder contains all relevant code relevant to this thesis.
