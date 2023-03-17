@@ -10,7 +10,7 @@ The literature folder contains the 2 main papers that will be used and it contai
 The Meetings, notes and discussions folder contains any random notes that needs to be written down and information about the meetings.
 <br />
 <br />
-The milestones folder contains the files that are handed in for the milestones.
+The milestones folder contains the files that are handed in for the milestones. This folder contains also a link to the overleaf website of the thesis itself.
 <br />
 <br />
 The Planning folder contains a link to the trello page where at the moment a general weekly planning is written down. The planning will have more details as the weeks come closer.
