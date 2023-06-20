@@ -5,6 +5,10 @@
 Welcome to the GitHub page of Link Prediction based on Graph Neural Networks using Textual Data for Recommending Dutch News Articles. 
 <br />
 
+## In short
+
+With the increasing number of news articles, it is important to ensure that people do not get overloaded and are given relevant recommendations. The use of Graph Neural Networks for link prediction is an emerging method for recommendation systems. Recent research in link prediction shows a new method, the SEAL framework. It learns from enclosing subgraphs, node embeddings and node attributes. However, this method lacks the input of learning from text. In this study, a method for link prediction is proposed that combines the state-of-the-art framework SEAL with Context-Aware Node Embeddings (CANE). CANE learns from text of surrounding nodes and the structure of the graph. Furthermore, a new dataset is presented with 768k Dutch news articles and hand-labelled links, which are recommended items between articles. We evaluate the proposed model on the NOS dataset with the article text and find that the SEAL + CANE method has a higher ability to discriminate the positive and negative links than the SEAL or SEAL with Node2vec embeddings, which do not learn from the text. When comparing the proposed method with the text-only method TF-IDF, TF-IDF has a better ability to recommend articles.
+
 ## Project Folder Structure
 
 - [``Code``](Code/): The Python code, the data folder(no data) and the EDA notebook. 
