@@ -34,7 +34,7 @@ To train the model and predict scores.
 
 This research was conducted as a master thesis information studies: data science at the University of Amsterdam. This work is written in colaboration with the NOS (the Dutch Public Broadcasting Foundation). 
 <br />
-Code has been used from the CANE and SEAL GitHub repository. The PyTorch implementation of DGCNN is also used from the PyTorch DGCNN GitHub repository. 
+Code has been used from the [CANE](https://github.com/thunlp/CANE/tree/master/code) and [SEAL](https://github.com/muhanzhang/SEAL/tree/master/Python) GitHub repository. The PyTorch implementation of DGCNN is also used from the [PyTorch DGCNN](https://github.com/muhanzhang/pytorch_DGCNN) GitHub repository. 
 <br />
 
 References of the papers of those repositories: <br />
