@@ -16,7 +16,7 @@ To clone this repository
 ```
 git clone https://github.com/Naomirood/Thesis
 ```
-Use the follwing line to install the required software and libraries, run the line in the [Code](Code/) folder. It will download and install the default graph neural network software of Zhang et al. (2018) [pytorch_DGCNN] to the same level as the root folder (only suitable for MacOS and Linux).
+Use the following line to install the required software and libraries, run the line in the [Code](Code/) folder. It will download and install the default graph neural network software of Zhang et al. (2018) [pytorch_DGCNN](https://github.com/muhanzhang/pytorch_DGCNN) to the same level as the root folder (only suitable for MacOS and Linux).
 ```
 bash ./install.sh
 ```
@@ -27,7 +27,7 @@ Python == 3.7.9 <br />
 TensorFlow == 2.12.2 <br />
 
 ## Usage
-To train the model and predict score. 
+To train the model and predict scores. 
 
 
 ## Acknowledgements
