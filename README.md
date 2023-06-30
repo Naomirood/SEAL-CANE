@@ -2,17 +2,15 @@
 ## MSc Thesis - Naomi Rood
 ### Information Studies, Track Data Science
 
-Welcome to the GitHub page of Link Prediction for the Context of Dutch News Articles using the Graph Neural Network SEAL method with CANE Embeddings. 
+Welcome to the GitHub page of Link Prediction for the Context of Dutch News Articles using the Graph Neural Network SEAL Framework with CANE Embeddings. 
 <br />
 
 ## In short
-
-With the increasing number of news articles, it is important to ensure that people do not get overloaded and are given relevant recommendations. The use of Graph Neural Networks for link prediction is an emerging method for recommendation systems. Recent research in link prediction shows a new method, the SEAL framework. It learns from enclosing subgraphs, node embeddings and node attributes. However, this method lacks the input of learning from text. In this study, a method for link prediction is proposed that combines the state-of-the-art framework SEAL with Context-Aware Node Embeddings (CANE). CANE learns from text of surrounding nodes and the structure of the graph. Furthermore, a new dataset is presented with 768k Dutch news articles and hand-labelled links, which are recommended items between articles. We evaluate the proposed model on the NOS dataset with the article text and find that the SEAL + CANE method has a higher ability to discriminate the positive and negative links than the SEAL or SEAL with Node2vec embeddings, which do not learn from the text. When comparing the proposed method with the text-only method TF-IDF, TF-IDF has a better ability to recommend articles.
+With the proliferation of news articles, effectively managing information overload by providing relevant recommendations is critical. Graph Neural Networks have emerged as a promising approach for news recommendation systems through link prediction. The SEAL framework, a novel approach in link prediction research, utilizes enclosed subgraphs, node embeddings, and node attributes as inputs to train a Graph Neural Network that outputs a probability of link existence. However, it does not incorporate text information in its node embeddings. This study proposed a method for link prediction that combines the state-of-the-art framework SEAL with Context-Aware Network Embeddings (CANE). CANE integrates information from the text of surrounding nodes and the graph structure into a node embedding. Additionally, a new dataset from the NOS with 468k Dutch news articles and hand-labeled links representing article recommendations is presented. Evaluation on the NOS dataset using article text showed that SEAL with CANE embeddings (AUC = 88.53) has an improved ability to discriminate positive and negative links compared to SEAL (subgraphs only) (AUC = 80.69) and SEAL with Node2vec embeddings (AUC = 82.21). However, it is noteworthy that the text-only method TF-IDF outperforms the proposed method in recommending articles.  
 
 ## Project Folder Structure
 
-- [``Code``](Code/): The Python code, the data folder and the EDA notebook. 
-- [``Literature``](Literature/): The two papers of SEAL and CANE.
+- [``Code``](Code/): The Python code, the data folder, and the EDA notebook. 
 - [``Thesis``](Thesis/): The final thesis.
 
 ## Requirements and Installation
@@ -56,12 +54,12 @@ To change the number of epochs, layers of the GNN or a different parameter for t
 To change the number of epochs, max_len of the text or a different parameter for the CANE training process, you can update [``config.py``](Code/Python/config.py). <br />
 
 <br /> 
-For a complete overview of the arguments, look at the [``Main.py``](Code/Python/Main.py) file. <br /> 
+For a complete overview of the arguments, look at the Main.py file. <br /> 
 
 
 ## Acknowledgements
 
-This research was conducted as a master thesis information studies: data science at the University of Amsterdam. This work is written in collaboration with the NOS (the Dutch Public Broadcasting Foundation). 
+This research was conducted as a master thesis Information Studies: data science at the University of Amsterdam. This work is written in collaboration with the NOS (the Dutch Public Broadcasting Foundation). 
 <br />
 Code has been used from the [CANE](https://github.com/thunlp/CANE/tree/master/code) and [SEAL](https://github.com/muhanzhang/SEAL/tree/master/Python) GitHub repository. The PyTorch implementation of DGCNN is also used from the [PyTorch DGCNN](https://github.com/muhanzhang/pytorch_DGCNN) GitHub repository. 
 <br />
